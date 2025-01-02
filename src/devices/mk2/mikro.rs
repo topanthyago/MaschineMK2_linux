@@ -20,11 +20,13 @@ use std::mem::transmute;
 use std::os::unix::io;
 
 extern crate nix;
+
 use midi::{Channel::Ch2, Message, U7};
 use nix::unistd;
 
 extern crate hex;
 extern crate png;
+
 
 use base::{Maschine, MaschineButton, MaschineHandler, MaschinePad, MaschinePadStateTransition};
 
