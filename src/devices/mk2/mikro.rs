@@ -30,7 +30,6 @@ extern crate png;
 
 use base::{Maschine, MaschineButton, MaschineHandler, MaschinePad, MaschinePadStateTransition};
 
-use crate::base::maschine;
 
 const BUTTON_REPORT_TO_MIKROBUTTONS_MAP: [[Option<MaschineButton>; 8]; 23] = [
     [
